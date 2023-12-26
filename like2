@@ -1,0 +1,11 @@
+void returnNothing()
+{
+    std::cout << "Hi!" << std::endl;
+}
+ 
+int main()
+{
+    returnNothing(); 
+    std::cout << returnNothing(); // помилка: цей рядок не скомпілюється (вам потрібно буде його закоментувати)
+    return 0;
+}
